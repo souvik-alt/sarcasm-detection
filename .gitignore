@@ -1,0 +1,58 @@
+
+# =========================
+# Node.js dependencies
+# =========================
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python
+# =========================
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Python test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+npm-debug.log*
+logs/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Operating system
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
